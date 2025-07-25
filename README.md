@@ -17,11 +17,11 @@ A Flutter-based cross-platform application for real-time public transport inform
 ## Technical Implementation 🛠️
 
 ### Packages Used
-- `flutter_bloc` for state management
-- `dio` for API communication
-- `flutter_svg` for vector assets
-- `intl` for localization
-- `geolocator` for location services
+- `http`
+- `provider`
+- `intl`
+- `flutter_svg`
+
 
 ### Architecture
 - Clean Architecture pattern:
