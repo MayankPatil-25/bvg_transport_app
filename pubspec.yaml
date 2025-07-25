@@ -1,0 +1,49 @@
+name: bvg_transport_app
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+  provider: ^6.0.5
+  intl: ^0.18.1
+  flutter_svg: ^2.0.7
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/arrow_left_alt.svg
+    - assets/bus.svg
+    - assets/cancel.svg
+    - assets/chevron_right.svg
+    - assets/close.svg
+    - assets/explore_nearby.svg
+    - assets/express.svg
+    - assets/ferry.svg
+    - assets/placeholder.svg
+    - assets/regional.svg
+    - assets/search.svg
+    - assets/suburban.svg
+    - assets/subway.svg
+    - assets/tram.svg
